@@ -54,6 +54,8 @@ body {
   font-weight: 600;
   height: 300px;
   border: 3px solid #42413b;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 .button {
   padding: 10px;
@@ -62,6 +64,7 @@ body {
   font-size: larger;
   border-radius: 10px;
   border: 3px solid #42413b;
+
 }
 
 /* Navbar */
@@ -83,4 +86,24 @@ body {
 }
 .black-svg {
   fill: #42413b;
+}
+.footer{
+
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 40px;
+  margin-top: -50px;
+}
+.lang {
+
+width: 40px;
+height: 20px;
+background-color: #eee0c9;
+border-color: #42413b;
+color: #31302b;
+}
+.lang:hover {
+  color: #febbcc;
+  background-color: #7aaec6;
 }
