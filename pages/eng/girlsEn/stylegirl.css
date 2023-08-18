@@ -8,7 +8,7 @@
 body {
   width: 100%;
   height: 100%;
-  background-color: #96b6c5;
+  background-color: #febbcc;
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -28,8 +28,8 @@ body {
 
 .upper,
 .down {
-  background-color: #adc4ce;
-  width: 89%;
+  background-color: #febbcc;
+  width: 85%;
   margin-top: 3%;
   border-radius: 10px;
   color: #42413b;
@@ -86,6 +86,7 @@ body {
 .black-svg {
   fill: #42413b;
 }
+
 .footer {
   display: flex;
   justify-content: center;
@@ -101,6 +102,6 @@ body {
   color: #31302b;
 }
 .lang:hover {
-  color: #febbcc;
-  background-color: #7aaec6;
+  background-color: #febbcc;
+  color: #7aaec6;
 }
